@@ -1,4 +1,4 @@
-package OOPS.Company;
+// package OOPS.Company;
 public class Student {
     String name;
     private int roll;
