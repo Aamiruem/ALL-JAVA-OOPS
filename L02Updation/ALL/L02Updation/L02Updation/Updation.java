@@ -11,8 +11,8 @@ public class Updation {
         return;
     }
 
-    public static void change(int x) {
-        x = 7;
+    public static void change(Student s) {
+        s.name = "Aamir";
         return;
     }
 
@@ -22,6 +22,7 @@ public class Updation {
         s1.rno = 1;
         s1.percent = 95.6;
         System.out.println(s1.name);
-        // change(s1);
+        change(s1);
+        System.out.println(s1.name);
     }
 }
