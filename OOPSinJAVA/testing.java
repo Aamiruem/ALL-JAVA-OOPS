@@ -1,5 +1,7 @@
 // package OOPSinJAVA;
 
+import OOPSinJAVA.Student;
+
 public class testing {
 
     //creating a new data type
