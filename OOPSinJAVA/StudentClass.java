@@ -1,7 +1,7 @@
 // package OOPS.Company;
 
 public class StudentClass {
-    class Student {
+    public static class Student {
         String name;
         int age;
         int roll_no;
