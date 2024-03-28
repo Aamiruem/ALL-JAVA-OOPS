@@ -1,5 +1,11 @@
 // package OOPS.Company;
+/* State True or False 1)OOPS refer to using objects in programming.2)Class is user defined blueprint through which objects are created.3)Objects of same
+    class have
+    different properties/attributes.4)
+    Objects are
+    instance of class */
 
+    
 public class StudentClass {
     public static class Student {
         String name;
@@ -29,6 +35,12 @@ public class StudentClass {
         s1.roll_no = 1;
         s1.percentage = 99.9;
         s1.fees = 1000;
+
+        Student s = new Student();// This is thse declaration of the student type data to store data
+        // s is the object
+        s.name = "Aamir";
+        s.percentage = 99.9;
+        s.roll_no = 1;
 
         System.out.println("Name : " + s1.name);
         System.out.println("Age: " + s1.age);
