@@ -1,19 +1,21 @@
-// package OOPSinJAVA;
-
-import OOPSinJAVA.Student;
+// package OOPS.COMPANY;
 
 public class testing {
-
-    //creating a new data type
-    public static void change(Student s) {
-        s.name = "Aamir";
-
+    public static class Student {
+        String name;
+        int rollNo;
+        double percent;
     }
 
     public static void main(String[] args) {
-        Student s1 = new Student();
-        s1.name = "Aamir";
-        change(s1);
-        System.out.println(s1.name);
+
+        Student x = new Student();
+        x.name = "Aamir";
+        x.rollNo = 1;
+        x.percent = 98.0;
+        System.out.println(x.name);
+        System.out.println(x.rollNo);
+        System.out.println(x.percent);
+
     }
 }

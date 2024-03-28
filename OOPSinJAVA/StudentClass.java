@@ -47,7 +47,7 @@ public class StudentClass {
         c1.type = "x6";
         c1.price = 10000000000d;
 
-        System.out.println(c1.name);
+        System.out.println(c1.name + " \n" + c1.type + "\n " + c1.price);
 
         StudentClass s1 = new StudentClass();
         s1.name = "Aamir";
