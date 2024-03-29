@@ -23,5 +23,6 @@ public class Student {
         Student.name = "Kamran";
 
         System.out.println(Student.name);
+        
     }
 }
