@@ -7,14 +7,21 @@
 
 public class Student {
 
-    String name;
-    int rollNo;
-    double percent;
+    static String name;
+    static int rollNo;
+    static double percent;
 
+    public Student(String name, int rollNo, double percent) {
+        Student.name = name;
+        Student.rollNo = rollNo;
+        Student.percent = percent;
+
+    }
     public static void main(String[] args) {
-        Student s = new Student();
-        s.name = "Kamran";
+        @SuppressWarnings("unused")
+        Student s = new Student(name, rollNo, percent);
+        Student.name = "Kamran";
 
-        System.out.println(s.name);
+        System.out.println(Student.name);
     }
 }
