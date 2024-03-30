@@ -6,9 +6,10 @@ public class Student {
     String address;
 
     public class demo {
-        public static void main(String[] args) {
-            Student s = new Student();
-            System.out.println(s.name);
-        }
+        
+    }
+    public static void main(String[] args) {
+        Student s = new Student();
+        System.out.println(s.name);
     }
 }
