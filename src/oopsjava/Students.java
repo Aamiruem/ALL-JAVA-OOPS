@@ -12,7 +12,7 @@
 // std1.Roll_no = 11;
 // std1.address = "XYZ Colony India"
 // }
-public class Student {
+public class Students {
     final String name = "kamran";
     int roll_No;
     String address;
@@ -21,7 +21,7 @@ public class Student {
 
     }
     public static void main(String[] args) {
-        Student s = new Student();
+        Students s = new Students();
         System.out.println(s.name);
     }
 }
